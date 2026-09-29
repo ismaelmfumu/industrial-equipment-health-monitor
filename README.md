@@ -1,0 +1,1 @@
+# industrial-equipment-health-monitor
