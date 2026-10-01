@@ -13,4 +13,4 @@
 | TC-09 | Critical alarm | WARNING (via debounce) | FAIL |
 | TC-10 | Timestamped data | Timestamped Data (10s) | PASS |
 | TC-11 | SENSOR_FAULT | SENSOR_FAULT (via -40.2°C) | PASS |
-| TC-12 | Correct recovery | Correct recovery (-40.0°C -> 30.2°C) | |
+| TC-12 | Correct recovery | Correct recovery (-40.0°C -> 30.2°C) | PASS |
