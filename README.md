@@ -21,17 +21,4 @@ early indication of abnormal behavior.
 This project explores the design of a small embedded monitoring
 system for a simulated industrial asset.
 
-## System Architecture
 
-```text
-Sensors
-   ↓
-Sensor Acquisition
-   ↓
-Signal Processing
-   ↓
-Health Assessment
-   ↓
-State Machine
-   ↓
-HMI / Alarm / Logging
