@@ -58,22 +58,41 @@ The prototype was developed to demonstrate the following engineering capabilitie
 
 ## Simulation / Tinkercad Prototype
 
-The embedded system was also developed and tested as a circuit simulation using **Tinkercad Circuits**. The simulation provides a reproducible environment for demonstrating the hardware configuration, sensor inputs, microcontroller logic, and system behavior.
+The embedded system was also developed and tested as a circuit simulation using **Tinkercad Circuits**. The simulation provides a reproducible environment for demonstrating the hardware configuration, sensor inputs, microcontroller logic, and system behavior before or alongside physical prototype implementation.
 
 ### Tinkercad Simulation
 
-**Interactive circuit simulation:**  
-[Open the Industrial Equipment Health Monitoring System in Tinkercad]([https://www.tinkercad.com/...](https://www.tinkercad.com/things/dOs9MAnyXfY-industrial-equipment-health-monitor?sharecode=IrBdWQUtzvsPOROV4wtcdnA7sSo2sY5sxFlFZma85As))
+**Interactive circuit simulation:**
+[Open the Industrial Equipment Health Monitoring System in Tinkercad](https://www.tinkercad.com/things/dOs9MAnyXfY-industrial-equipment-health-monitor?sharecode=IrBdWQUtzvsPOROV4wtcdnA7sSo2sY5sxFlFZma85As)
 
 The Tinkercad simulation can be used to:
 
-- Review the prototype's hardware configuration
-- Inspect sensor and component connections
-- Run the embedded firmware
-- Simulate equipment operating conditions
-- Observe health-state changes
-- Validate basic hardware/software interactions
-- Reproduce the prototype without physical hardware
+* Review the prototype's hardware configuration
+* Inspect sensor and component connections
+* Run the embedded firmware
+* Simulate equipment operating conditions
+* Observe equipment health-state changes
+* Validate basic hardware/software interactions
+* Reproduce the prototype without physical hardware
+
+The Tinkercad simulation complements the engineering documentation in the `docs/` directory:
+
+```text
+Tinkercad Simulation
+        │
+        ├── Hardware Configuration
+        ├── Sensor Inputs
+        ├── Embedded Controller
+        └── Firmware Execution
+                │
+                ▼
+        System Behavior
+                │
+                ▼
+     Test Plan / Test Results
+```
+
+The simulation is intended as a **prototype and engineering verification aid**. It does not represent a production industrial monitoring system or replace testing with physical industrial-grade hardware.
 
 ---
 
